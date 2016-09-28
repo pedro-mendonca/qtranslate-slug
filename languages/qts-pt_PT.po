@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: qTranslate slug\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/qtranslate-slug\n"
 "POT-Creation-Date: 2016-09-28 14:17+0100\n"
-"PO-Revision-Date: 2016-09-28 14:18+0100\n"
+"PO-Revision-Date: 2016-09-28 14:20+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../includes/class-qtranslate-slug-widget.php:11
 msgid "Allows your visitors to choose a Language."
-msgstr "Permite aos visitantes escolher o seu Idioma."
+msgstr "Permite aos visitantes escolher o seu idioma."
 
 #: ../includes/class-qtranslate-slug-widget.php:12
 msgid "Language selector (QTS)"
