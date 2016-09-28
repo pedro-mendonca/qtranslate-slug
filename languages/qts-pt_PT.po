@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qTranslate slug\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/qtranslate-slug\n"
-"POT-Creation-Date: 2015-01-23 14:23-0000\n"
-"PO-Revision-Date: 2016-09-28 14:12+0100\n"
+"POT-Creation-Date: 2016-09-28 14:17+0100\n"
+"PO-Revision-Date: 2016-09-28 14:18+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext;_n;__ngettext_noop;_n_noop;_x;_nx;"
-"_nx_noop;_ex;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x;"
-"_c;_nc\n"
+"_nx_noop;_ex;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e;"
+"esc_html_x;_c;_nc\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
@@ -27,8 +27,8 @@ msgid "Allows your visitors to choose a Language."
 msgstr "Permite aos visitantes escolher o seu Idioma."
 
 #: ../includes/class-qtranslate-slug-widget.php:12
-msgid "Language selector"
-msgstr "Selector de idioma"
+msgid "Language selector (QTS)"
+msgstr "Selector de idioma (QTS)"
 
 #: ../includes/class-qtranslate-slug-widget.php:19
 msgid "Language"
@@ -66,62 +66,64 @@ msgstr "Caixa de selecção"
 msgid "Show short name (en):"
 msgstr "Mostrar abreviatura (pt):"
 
-#: ../includes/class-qtranslate-slug.php:413
+#: ../includes/class-qtranslate-slug.php:392
 msgid "Please update your old data to the new system."
 msgstr "Por favor actualize os seus dados antigos para o novo sistema."
 
-#: ../includes/class-qtranslate-slug.php:413
+#: ../includes/class-qtranslate-slug.php:392
 #: ../includes/qtranslate-slug-settings.php:29
 msgid "upgrade now"
 msgstr "actualizar agora"
 
-#: ../includes/class-qtranslate-slug.php:427
+#: ../includes/class-qtranslate-slug.php:406
 msgid "or newer"
 msgstr "ou mais recente"
 
-#: ../includes/class-qtranslate-slug.php:432
+#: ../includes/class-qtranslate-slug.php:411
+#, php-format
 msgid "This plugin requires at least %s and either %s, or %s, or %s"
 msgstr "Este plugin requer no mínimo o %s e o %s, ou %s, ou %s"
 
-#: ../includes/class-qtranslate-slug.php:432
+#: ../includes/class-qtranslate-slug.php:413
+#: ../includes/class-qtranslate-slug.php:414
+#: ../includes/class-qtranslate-slug.php:415
 msgid "More information about"
 msgstr "Mais informações sobre"
 
-#: ../includes/class-qtranslate-slug.php:1612
+#: ../includes/class-qtranslate-slug.php:1525
+#, php-format
 msgid "View all posts in %s"
 msgstr "Ver todos os artigos em %s"
 
-#: ../includes/class-qtranslate-slug.php:1739
+#: ../includes/class-qtranslate-slug.php:1652
 msgid "Empty Term"
 msgstr "Termo vazio"
 
-#: ../includes/class-qtranslate-slug.php:1999
-#: ../includes/class-qtranslate-slug.php:2000
-#: ../includes/class-qtranslate-slug.php:2003
-#: ../includes/class-qtranslate-slug.php:2541
-msgid "Slug"
-msgstr "URL"
+#: ../includes/class-qtranslate-slug.php:1927
+msgid "Slug QTS"
+msgstr "URL QTS"
 
-#: ../includes/class-qtranslate-slug.php:2214
-#: ../includes/class-qtranslate-slug.php:2233
+#: ../includes/class-qtranslate-slug.php:1928
+#: ../includes/class-qtranslate-slug.php:1931
+msgid "Slug  QTS"
+msgstr "URL QTS"
+
+#: ../includes/class-qtranslate-slug.php:2149
+#: ../includes/class-qtranslate-slug.php:2168
 #: ../includes/qtranslate-slug-settings-options.php:39
+#, php-format
 msgid "Slug (%s)"
 msgstr "URL (%s)"
 
-#: ../includes/class-qtranslate-slug.php:2400
-#: ../includes/class-qtranslate-slug.php:2404
-msgid "Name"
-msgstr "Nome"
+#: ../includes/class-qtranslate-slug.php:2485
+msgid "Slug"
+msgstr "URL"
 
-#: ../includes/class-qtranslate-slug.php:2542
+#: ../includes/class-qtranslate-slug.php:2486
 msgid "Posts"
 msgstr "Artigos"
 
-#: ../includes/class-qtranslate-slug.php:2634
-msgid "Languages"
-msgstr "Idiomas"
-
-#: ../includes/class-qtranslate-slug.php:2657
+#: ../includes/class-qtranslate-slug.php:2602
 msgid "All languages"
 msgstr "Todos os idiomas"
 
@@ -179,6 +181,7 @@ msgstr "nenhum"
 
 #: ../includes/qtranslate-slug-settings-options.php:106
 #: ../includes/qtranslate-slug-settings-options.php:148
+#, php-format
 msgid "<code>http://example.org/<u>%s</u>/some-%s/</code>"
 msgstr "<code>http://exemplo.org/<u>%s</u>/qualquer-%s/</code>"
 
@@ -216,8 +219,8 @@ msgstr "Actualize os seus dados"
 
 #: ../includes/qtranslate-slug-settings.php:24
 msgid ""
-"There are slugs stored with old data system. Please upgrade your data pressing "
-"upgrade button:"
+"There are slugs stored with old data system. Please upgrade your data "
+"pressing upgrade button:"
 msgstr ""
 "Existem URLs com sistema de dados antigo. Por favor actualize os seus dados "
 "através do botão actualizar:"
@@ -234,6 +237,7 @@ msgstr ""
 "Parabéns, os seus dados foram actualizados e o sistema está agora actual."
 
 #: ../includes/qtranslate-slug-settings.php:90
+#, php-format
 msgid "One step more, select what type of slug is this: <strong>%s</strong>"
 msgstr "Um passo mais, seleccione que tipo de URL é este: <strong>%s</strong>"
 
@@ -246,98 +250,110 @@ msgid "Category, tag or custom taxonomy"
 msgstr "Categoria, etiqueta ou taxonomia personalizada"
 
 #: ../includes/qtranslate-slug-settings.php:182
-#: ../includes/qtranslate-slug-settings.php:322
+#: ../includes/qtranslate-slug-settings.php:325
 msgid "Qtranslate Slug options"
 msgstr "Opções do Qtranslate Slug"
 
-#: ../includes/qtranslate-slug-settings.php:322
+#: ../includes/qtranslate-slug-settings.php:325
 msgid "Slug options"
 msgstr "Opções do URL"
 
-#: ../includes/qtranslate-slug-settings.php:359
+#: ../includes/qtranslate-slug-settings.php:353
 msgid ""
-"For example, the post_type <kbd>books</kbd>, in Spanish would be displayed as "
-"<code>http://example.org/es/libros/post-type-name/</code>. If you leave this "
-"blank will use the default option when you <a href=\"http://codex.wordpress."
-"org/Function_Reference/register_post_type\">registered</a> the post_type."
+"For example, the post_type <kbd>books</kbd>, in Spanish would be displayed "
+"as <code>http://example.org/es/libros/post-type-name/</code>. If you leave "
+"this blank will use the default option when you <a href=\"http://codex."
+"wordpress.org/Function_Reference/register_post_type\">registered</a> the "
+"post_type."
 msgstr ""
 "Por exemplo, o tipo de artigo <kbd>livros</kbd>, em português seria mostrado "
 "como <code>http://exemplo.org/pt/livros/nome-de-tipo-de-artigo/</code>. Se "
 "deixar isto em branco, será usada a opção por omissão <a href=\"http://codex."
-"wordpress.org/Function_Reference/register_post_type\">registada</a> no tipo de "
-"artigo."
+"wordpress.org/Function_Reference/register_post_type\">registada</a> no tipo "
+"de artigo."
 
-#: ../includes/qtranslate-slug-settings.php:364
+#: ../includes/qtranslate-slug-settings.php:358
 msgid ""
 "For example, the taxonomy <kbd>category</kbd>, in Spanish would be displayed "
 "as <code>http://example.org/es/categoria/taxonomy-name/</code>. If you leave "
 "this blank will use the default option when you <a href=\"http://codex."
 "wordpress.org/Function_Reference/register_taxonomy\">registered</a> the "
-"taxonomy (if you previously setup a base permastruct for <u>categories</u> or "
-"<u>tags</u> in <a href=\"options-permalink.php\">permalinks</a> page, these "
-"bases will be overwritten by the translated ones)."
+"taxonomy (if you previously setup a base permastruct for <u>categories</u> "
+"or <u>tags</u> in <a href=\"options-permalink.php\">permalinks</a> page, "
+"these bases will be overwritten by the translated ones)."
 msgstr ""
 "Por exemplo, a taxonomia <kbd>categoria</kbd>, em português seria mostrado "
 "como <code>http://exemplo.org/pt/categoria/nome-de-taxonomia/</code>. Se "
 "deixar isto em branco, será usada a opção por omissão <a href=\"http://codex."
 "wordpress.org/Function_Reference/register_taxonomy\">registada</a> na "
 "taxonomia (se previamente configurou a base das ligações permanentes para "
-"<u>categorias</u> ou <u>etiquetas</u> na página <a href=\"options-permalink.php"
-"\">ligações permanentes</a>, estas bases serão sobrepostas pelas traduzidas)."
+"<u>categorias</u> ou <u>etiquetas</u> na página <a href=\"options-permalink."
+"php\">ligações permanentes</a>, estas bases serão sobrepostas pelas "
+"traduzidas)."
 
-#: ../includes/qtranslate-slug-settings.php:368
+#: ../includes/qtranslate-slug-settings.php:362
 msgid "The default styles are very minimal, and you can include them or not."
 msgstr "﻿Os estilos padrão são mínimos, pode incluí-los ou não."
 
-#: ../includes/qtranslate-slug-settings.php:567
+#: ../includes/qtranslate-slug-settings.php:562
 msgid ""
 "If you activated previously the <a href=\"options-permalink.php\">pretty "
-"permalinks</a>, in this section you can translate the <abbr title=\"en inglés, "
-"Universal Resource Locator\">URLs</abbr> <strong>bases</strong> for <a href="
-"\"http://codex.wordpress.org/Function_Reference/register_post_type#Arguments"
-"\">public</a> post_types, categories, tags and taxonomies."
+"permalinks</a>, in this section you can translate the <abbr title=\"en "
+"inglés, Universal Resource Locator\">URLs</abbr> <strong>bases</strong> for "
+"<a href=\"http://codex.wordpress.org/Function_Reference/"
+"register_post_type#Arguments\">public</a> post_types, categories, tags and "
+"taxonomies."
 msgstr ""
 "Se activou previamente as <a href=\"options-permalink.php\">ligações "
 "permanentes</a>, nesta secção poderá traduzir as <strong>bases</strong> das "
 "<abbr title=\"em inglês, Universal Resource Locator\">URLs</abbr> para tipos "
-"de artigo, categorias, etiquetas e taxonomias <a href=\"http://codex.wordpress."
-"org/Function_Reference/register_post_type#Arguments\">públicas</a>."
+"de artigo, categorias, etiquetas e taxonomias <a href=\"http://codex."
+"wordpress.org/Function_Reference/register_post_type#Arguments\">públicas</a>."
 
-#: ../includes/qtranslate-slug-settings.php:586
+#: ../includes/qtranslate-slug-settings.php:581
 msgid "If you selected \"none\", copy and use these styles as you see fit:"
 msgstr "Se escolher \"nenhum\", copie e utilize estes estilos como entender:"
 
-#: ../includes/qtranslate-slug-settings.php:589
+#: ../includes/qtranslate-slug-settings.php:584
 msgid "Save Changes"
 msgstr "Guardar alterações"
 
-#: ../includes/qtranslate-slug-settings.php:642
+#: ../includes/qtranslate-slug-settings.php:637
 msgid "Expecting a Numeric value! Please fix."
 msgstr "É necessário um valor numérico! Por favor, corrija."
 
-#: ../includes/qtranslate-slug-settings.php:655
+#: ../includes/qtranslate-slug-settings.php:650
 msgid "Expecting comma separated numeric values"
 msgstr "Valores numéricos separados por vírgulas"
 
-#: ../includes/qtranslate-slug-settings.php:665
+#: ../includes/qtranslate-slug-settings.php:660
 msgid "Expecting comma separated numeric values! Please fix."
 msgstr ""
 "São necessários valores numéricos separados por vírgulas! Por favor, corrija."
 
-#: ../includes/qtranslate-slug-settings.php:690
+#: ../includes/qtranslate-slug-settings.php:685
 msgid "Invalid email"
 msgstr "Email incorrecto"
 
-#: ../includes/qtranslate-slug-settings.php:692
+#: ../includes/qtranslate-slug-settings.php:687
 msgid "This setting field cannot be empty! Please enter a valid email address."
 msgstr ""
 "Este campo não pode estar vazio! Por favor introduza um endereço de email "
 "válido."
 
-#: ../includes/qtranslate-slug-settings.php:700
+#: ../includes/qtranslate-slug-settings.php:695
 msgid "Please enter a valid email address."
 msgstr "Por favor introduza um endereço de email válido."
 
-#: ../qtranslate-slug.php:150
+#: ../qtranslate-slug.php:149
 msgid "Settings"
 msgstr "Definições"
+
+#~ msgid "Language selector"
+#~ msgstr "Selector de idioma"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Languages"
+#~ msgstr "Idiomas"
